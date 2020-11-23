@@ -1,11 +1,11 @@
 import datetime
 
-from Configurator import get_configuration, get_dataset_configs, get_input_parameters_for_algorithms
-from DataIntegrator import read_in_data, feature_selection, preprocess_dataset, prepare_for_unsupervised_learning, prepare_for_supervised_learning
-from DataPreprocessor import further_preprocessing, clean_dataset, scale_and_normalize_features
-from HardwareReader import get_hardware_specs
-from ExperimentRunner import run_experiments
-from ResultsManager import export_results
+from sources.Configurator import get_configuration, get_dataset_configs, get_input_parameters_for_algorithms
+from sources.DataIntegrator import read_in_data, feature_selection, preprocess_dataset, prepare_for_unsupervised_learning, prepare_for_supervised_learning
+from sources.DataPreprocessor import further_preprocessing, clean_dataset, scale_and_normalize_features
+from sources.HardwareReader import get_hardware_specs
+from sources.ExperimentRunner import run_experiments
+from sources.ResultsManager import export_results
 
 
 supported_unsupervised_algorithms = ["kmeans", "spectral", "dbscan", "optics", "meanshift", "agglomerative", "affinity", "em", "vbgmm"]

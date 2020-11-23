@@ -1,7 +1,7 @@
-from UnsupervisedTester import kmeans_clustering, em_clustering, spectral_clustering, dbscan_clustering, \
+from sources.UnsupervisedTester import kmeans_clustering, em_clustering, spectral_clustering, dbscan_clustering, \
                                optics_clustering, meanshift_clustering, agglomerative_clustering, affinity_clustering, vbgmm_clustering
 
-from SupervisedTester import knn_clustering, svc_clustering, nearest_centroid_clustering, radius_neighbors_clustering, nca_clustering, svc_sdg_clustering
+from sources.SupervisedTester import knn_clustering, svc_clustering, nearest_centroid_clustering, radius_neighbors_clustering, nca_clustering, svc_sdg_clustering
 
 from sklearn import metrics
 
