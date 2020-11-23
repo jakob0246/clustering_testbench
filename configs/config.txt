@@ -1,0 +1,21 @@
+# configure parameters about the dataset here
+[datasets]
+directory_path: ../datasets/
+feature_scaling_and_normalization: quantile
+missing_values: cca
+
+# main parameters
+#     - set of supported unsupervised_algorithms: kmeans, em, vbgmm, dbscan, meanshift, agglomerative, optics, affinity, spectral
+#     - set of supported supervised_algorithms: knn, svc, svc_sgd, nearest_centroid, radius_neighbors, nca
+#     - n_runs is the number of test runs per algorithm
+#     - show_clusterings shows the clustering results in plots if number of dimensions is 2 or 3
+[parameters]
+unsupervised_algorithms: kmeans, em, vbgmm, meanshift, agglomerative, optics, affinity, spectral
+supervised_algorithms:
+test_size = 0.25
+n_runs = 1
+show_unsupervised_clusterings: true
+
+# parameters to manage results
+[results]
+directory_path: ../results/

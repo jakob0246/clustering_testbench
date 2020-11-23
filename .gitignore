@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# PyCharm
+/venv/
+/.idea/
+
+# Python
+/source/__pycache__/

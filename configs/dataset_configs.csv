@@ -1,0 +1,2 @@
+dataset;csv_delimiter;numeric_categorials;feature_selection_type;features;class
+chronic_kidney_disease_edited.arff.txt;;;exclude;;class

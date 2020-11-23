@@ -1,0 +1,58 @@
+{
+    "unsupervised": {
+        "kmeans": {
+            "n_clusters": 4
+        },
+        "em": {
+            "n_clusters": 4
+        },
+        "spectral": {
+            "n_clusters": 4
+        },
+        "dbscan": {
+            "min_samples": 5,
+            "epsilon": 1.0,
+            "distance": "euclidean"
+        },
+        "optics": {
+            "min_samples": 10,
+            "distance": "minkowski"
+        },
+        "meanshift": {
+
+        },
+        "agglomerative": {
+            "n_clusters": 4,
+            "distance": "euclidean"
+        },
+        "affinity": {
+
+        },
+        "vbgmm": {
+            "max_n_components": 15
+        }
+    },
+    "supervised": {
+        "knn": {
+            "k": 10,
+            "distance": "minkowski"
+        },
+        "svc": {
+            "degree": 3
+        },
+        "nearest_centroid": {
+            "distance": "euclidean"
+        },
+        "radius_neighbors": {
+            "radius": 10000000.0,
+            "distance": "minkowski"
+        },
+        "nca": {
+            "k": 10,
+            "distance": "minkowski"
+        },
+        "svc_sgd": {
+
+        }
+    }
+}
