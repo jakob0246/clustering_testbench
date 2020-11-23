@@ -10,7 +10,6 @@ Execute _Main.py_ if you want to test specific clustering algorithms on differen
 #### dataset_configs.csv
   -  every row here is a test experiment configuration for one dataset
   -  numeric_categorials are categorials which should be treated as a number, e.g. {1, 2, 3, 4}
-  -  if file is a CSV, have columns like: "<name>: <type>" where <type> can be "number" or "categorial"
   -  csv_delimiter is only important if a csv file should be used
 
 #### algorithm_parameters.json
