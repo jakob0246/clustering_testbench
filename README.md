@@ -2,7 +2,7 @@
 Run project with PyCharm and Python 3.6. For that, create a new PyCharm project for the _clustering\_testbench_ repository. Then install the required libraries, as well, using the _requirements.txt_.
 
 ## Usage
-Execute _Main.py_ if you want to test specific clustering algorithms on different datasets. The usage of the program also is determined by the utilization of various configuration files.
+Execute _Main.py_ if you want to test specific clustering algorithms on different datasets. TestBench results will be written to table-sheets inside the _"results"_ folder. The usage of the program also is determined by the utilization of various configuration files.
 
 #### config.txt
   -  main configuration parameters
