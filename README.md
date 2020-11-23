@@ -4,16 +4,16 @@ Run project with PyCharm and Python 3.6. For that, create a new PyCharm project 
 ## Usage
 Execute _Main.py_ if you want to test specific clustering algorithms on different datasets. The usage of the program also is determined by the utilization of various configuration files.
 
-####config.txt
+#### config.txt
   -  main configuration parameters
 
-####dataset_configs.csv
+#### dataset_configs.csv
   -  every row here is a test experiment configuration for one dataset
   -  numeric_categorials are categorials which should be treated as a number, e.g. {1, 2, 3, 4}
   -  if file is a CSV, have columns like: "<name>: <type>" where <type> can be "number" or "categorial"
   -  csv_delimiter is only important if a csv file should be used
 
-####algorithm_parameters.json
+#### algorithm_parameters.json
   -  specifies the parameters for the learning algorithms to use;
   -> syntax: 
        -  {"unsupervised": { <algorithm_1> ... <algorithm_m>}, "supervised": { <algorithm_1> ... <algorithm_n> }}
